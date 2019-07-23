@@ -1,0 +1,255 @@
+digraph G {
+node0 [ label="flush_outbuf" ];
+node1 [ label="trees.c:386 
+(0%,0%)",shape="ellipse",color = "red"];
+node2 [ label="gzip.c:592
+(6%,97%)",shape="ellipse",color = "red"];
+node3 [ label="basename" ];
+node4 [ label="scan_tree" ];
+node5 [ label="trees.c:590 
+(2%,2%)",shape="ellipse",color = "red"];
+node6 [ label="trees.c:651 
+(0%,0%)",shape="ellipse",color = "red"];
+node7 [ label="gen_codes" ];
+node8 [ label="flush_block" ];
+node9 [ label="main" ];
+node10 [ label="strlwr" ];
+node11 [ label="trees.c:510
+(1%,1%)",shape="ellipse",color = "red"];
+node12 [ label="bi_init" ];
+node13 [ label="updcrc" ];
+node14 [ label="trees.c:352
+(0%,2%)",shape="ellipse",color = "red"];
+node15 [ label="write_buf" ];
+node16 [ label="trees.c:591
+(1%,1%)",shape="ellipse",color = "red"];
+node17 [ label="do_exit" ];
+node18 [ label="trees.c:594
+(27%,50%)",shape="ellipse",color = "red"];
+node19 [ label="trees.c:385 
+(0%,0%)",shape="ellipse",color = "red"];
+node20 [ label="trees.c:368 
+(1%,1%)",shape="ellipse",color = "red"];
+node21 [ label="gzip.c:979
+(0%,0%)",shape="ellipse",color = "red"];
+node22 [ label="gzip.c:977
+(0%,0%)",shape="ellipse",color = "red"];
+node23 [ label="gzip.c:970
+(0%,0%)",shape="ellipse",color = "red"];
+node24 [ label="init_block" ];
+node25 [ label="gzip.c:479
+(0%,0%)",shape="ellipse",color = "red"];
+node26 [ label="lm_init" ];
+node27 [ label="trees.c:581 
+(0%,0%)",shape="ellipse",color = "red"];
+node28 [ label="gen_bitlen" ];
+node29 [ label="trees.c:677
+(3%,4%)",shape="ellipse",color = "red"];
+node30 [ label="util.c:172 
+(0%,0%)",shape="ellipse",color = "red"];
+node31 [ label="trees.c:462
+(0%,0%)",shape="ellipse",color = "red"];
+node32 [ label="trees.c:384 
+(0%,0%)",shape="ellipse",color = "red"];
+node33 [ label="send_bits" ];
+node34 [ label="trees.c:414 
+(0%,0%)",shape="ellipse",color = "red"];
+node35 [ label="ct_init" ];
+node36 [ label="trees.c:353 
+(1%,1%)",shape="ellipse",color = "red"];
+node37 [ label="trees.c:711 
+(0%,0%)",shape="ellipse",color = "red"];
+node38 [ label="trees.c:375
+(0%,1%)",shape="ellipse",color = "red"];
+node39 [ label="build_tree" ];
+node40 [ label="??:?
+(0%,0%)",shape="ellipse",color = "red"];
+node41 [ label="frame_dummy" ];
+node42 [ label="create_outfile" ];
+node43 [ label="copy_stat" ];
+node45 [ label="deflate.c:675
+(4%,4%)",shape="ellipse",color = "red"];
+node46 [ label="pqdownheap" ];
+node47 [ label="add_envopt" ];
+node48 [ label="trees.c:1028
+(1%,2%)",shape="ellipse",color = "red"];
+node49 [ label="trees.c:462 
+(0%,0%)",shape="ellipse",color = "red"];
+node50 [ label="trees.c:1026
+(0%,0%)",shape="ellipse",color = "red"];
+node51 [ label="get_istat" ];
+node52 [ label="trees.c:367
+(0%,1%)",shape="ellipse",color = "red"];
+node53 [ label="fill_window" ];
+node54 [ label="trees.c:382 
+(0%,0%)",shape="ellipse",color = "red"];
+node55 [ label="trees.c:715
+(0%,0%)",shape="ellipse",color = "red"];
+node56 [ label="trees.c:713
+(3%,3%)",shape="ellipse",color = "red"];
+node57 [ label="trees.c:712
+(0%,0%)",shape="ellipse",color = "red"];
+node58 [ label="trees.c:412 
+(3%,3%)",shape="ellipse",color = "red"];
+node59 [ label="zip" ];
+node60 [ label="name_too_long" ];
+node61 [ label="bits.c:154 
+(24%,24%)",shape="ellipse",color = "red"];
+node62 [ label="trees.c:1051
+(0%,0%)",shape="ellipse",color = "red"];
+node63 [ label="util.c:73 
+(0%,0%)",shape="ellipse",color = "red"];
+node64 [ label="trees.c:413 
+(0%,0%)",shape="ellipse",color = "red"];
+node65 [ label="bi_windup" ];
+node66 [ label="trees.c:376 
+(1%,1%)",shape="ellipse",color = "red"];
+node67 [ label="clear_bufs" ];
+node68 [ label="do_stat" ];
+node69 [ label="longest_match" ];
+node70 [ label="trees.c:459 
+(0%,0%)",shape="ellipse",color = "red"];
+node71 [ label="trees.c:627
+(0%,0%)",shape="ellipse",color = "red"];
+node72 [ label="trees.c:626
+(0%,0%)",shape="ellipse",color = "red"];
+node73 [ label="compress_block" ];
+node74 [ label="build_bl_tree" ];
+node75 [ label="bi_reverse" ];
+node76 [ label="deflate.c:719 
+(0%,0%)",shape="ellipse",color = "red"];
+node77 [ label="gzip.c:435
+(0%,0%)",shape="ellipse",color = "red"];
+node78 [ label="check_ofname" ];
+node79 [ label="trees.c:630
+(2%,2%)",shape="ellipse",color = "red"];
+node80 [ label="trees.c:499 
+(0%,0%)",shape="ellipse",color = "red"];
+node81 [ label="trees.c:1025 
+(0%,2%)",shape="ellipse",color = "red"];
+node82 [ label="main_constructor" ];
+node83 [ label="__libc_csu_init" ];
+node84 [ label="file_read" ];
+node85 [ label="trees.c:387 
+(0%,0%)",shape="ellipse",color = "red"];
+node86 [ label="get_suffix" ];
+node87 [ label="deflate" ];
+node88 [ label="zip.c:71
+(0%,0%)",shape="ellipse",color = "red"];
+node89 [ label="deregister_tm_clones" ];
+node90 [ label="trees.c:397 
+(2%,3%)",shape="ellipse",color = "red"];
+node91 [ label="ct_tally" ];
+node92 [ label="make_ofname" ];
+node93 [ label="gzip.c:1438
+(0%,0%)",shape="ellipse",color = "red"];
+node94 [ label="reset_times" ];
+node95 [ label="treat_file" ];
+node97 [ label="gzip.c:1433
+(0%,0%)",shape="ellipse",color = "red"];
+node35 -> node7
+node48 -> node50
+node9 -> node3
+node59 -> node26
+node24 -> node64
+node14 -> node36
+node83 -> node40
+node75 -> node61
+node52 -> node20
+node45 -> node69
+node37 -> node57
+node26 -> node84
+node74 -> node39
+node4 -> node55
+node28 -> node80
+node8 -> node65
+node7 -> node18
+node24 -> node58
+node39 -> node28
+node35 -> node19
+node39 -> node7
+node35 -> node14
+node42 -> node60
+node50 -> node33
+node9 -> node17
+node35 -> node54
+node83 -> node41
+node51 -> node68
+node59 -> node12
+node8 -> node24
+node95 -> node42
+node95 -> node43
+node60 -> node97
+node28 -> node11
+node71 -> node72
+node38 -> node66
+node10 -> node30
+node59 -> node13
+node59 -> node3
+node35 -> node90
+node95 -> node67
+node39 -> node71
+node46 -> node31
+node95 -> node51
+node6 -> node46
+node60 -> node93
+node9 -> node77
+node84 -> node13
+node45 -> node76
+node35 -> node32
+node9 -> node47
+node16 -> node75
+node8 -> node39
+node35 -> node24
+node2 -> node95
+node9 -> node25
+node8 -> node33
+node35 -> node1
+node59 -> node35
+node73 -> node81
+node42 -> node78
+node0 -> node15
+node4 -> node56
+node35 -> node85
+node24 -> node34
+node59 -> node88
+node86 -> node22
+node86 -> node21
+node17 -> node89
+node26 -> node53
+node45 -> node91
+node56 -> node37
+node39 -> node79
+node87 -> node45
+node40 -> node82
+node95 -> node59
+node35 -> node38
+node43 -> node94
+node87 -> node8
+node48 -> node62
+node81 -> node48
+node8 -> node73
+node62 -> node33
+node39 -> node29
+node39 -> node6
+node7 -> node5
+node74 -> node4
+node95 -> node92
+node53 -> node84
+node8 -> node74
+node13 -> node63
+node9 -> node2
+node90 -> node75
+node79 -> node72
+node59 -> node87
+node59 -> node0
+node46 -> node70
+node92 -> node86
+node46 -> node49
+node86 -> node10
+node18 -> node16
+node86 -> node23
+node7 -> node27
+node35 -> node52
+node5 -> node16
+}

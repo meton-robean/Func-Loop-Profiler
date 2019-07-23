@@ -1,0 +1,679 @@
+Running time : 8324.035000
+total instructions: 74158
+*********Loop Flat Profile*********
+[1]--------loop at: gzip.c:977(401d99)----------
+-> loop_head: 401d99
+-> entries: 1
+-> trip_count: 15
+-> iterations: 15
+-> self_ins: 15 (0.0202271%)
+-> total_ins: 15 (0.0202271%)
+[2]--------loop at: gzip.c:984(401e36)----------
+-> loop_head: 401e36
+-> entries: 1
+-> trip_count: 15
+-> iterations: 15
+-> self_ins: 15 (0.0202271%)
+-> total_ins: 15 (0.0202271%)
+[3]--------loop at: gzip.c:986(401e5c)----------
+-> loop_head: 401e5c
+-> entries: 1
+-> trip_count: 23
+-> iterations: 23
+-> self_ins: 212 (0.285876%)
+-> total_ins: 212 (0.285876%)
+[4]--------loop at: gzip.c:1440(401f32)----------
+-> loop_head: 401f32
+-> entries: 1
+-> trip_count: 18
+-> iterations: 18
+-> self_ins: 18 (0.0242725%)
+-> total_ins: 18 (0.0242725%)
+[5]--------loop at: gzip.c:1445(401f55)----------
+-> loop_head: 401f55
+-> entries: 1
+-> trip_count: 17
+-> iterations: 17
+-> self_ins: 17 (0.022924%)
+-> total_ins: 17 (0.022924%)
+[6]--------loop at: gzip.c:438(404fc0)----------
+-> loop_head: 404fc0
+-> entries: 1
+-> trip_count: 4
+-> iterations: 4
+-> self_ins: 4 (0.00539389%)
+-> total_ins: 4 (0.00539389%)
+[7]--------loop at: gzip.c:482(40516e)----------
+-> loop_head: 40516e
+-> entries: 1
+-> trip_count: 3
+-> iterations: 3
+-> self_ins: 3 (0.00404542%)
+-> total_ins: 3 (0.00404542%)
+[8]--------loop at: gzip.c:595(405549)----------
+-> loop_head: 405549
+-> entries: 1
+-> trip_count: 2
+-> iterations: 2
+-> self_ins: 5088 (6.86103%)
+-> total_ins: 72489 (97.7494%)
+[9]--------loop at: zip.c:71(405756)----------
+-> loop_head: 405756
+-> entries: 1
+-> trip_count: 16
+-> iterations: 16
+-> self_ins: 168 (0.226543%)
+-> total_ins: 168 (0.226543%)
+[10]--------loop at: deflate.c:719 (40612a)----------
+-> loop_head: 40612a
+-> entries: 2
+-> trip_count: 4
+-> iterations: 9
+-> self_ins: 144 (0.19418%)
+-> total_ins: 144 (0.19418%)
+[11]--------loop at: deflate.c:675(40629a)----------
+-> loop_head: 40629a
+-> entries: 1
+-> trip_count: 23
+-> iterations: 23
+-> self_ins: 3159 (4.25982%)
+-> total_ins: 3303 (4.454%)
+[12]--------loop at: trees.c:581 (4064b2)----------
+-> loop_head: 4064b2
+-> entries: 4
+-> trip_count: 14
+-> iterations: 56
+-> self_ins: 336 (0.453087%)
+-> total_ins: 336 (0.453087%)
+[13]--------loop at: trees.c:591(4064d3)----------
+-> loop_head: 4064d3
+-> entries: 10
+-> trip_count: 3
+-> iterations: 31
+-> self_ins: 852 (1.1489%)
+-> total_ins: 988 (1.33229%)
+[14]--------loop at: trees.c:594(4064f9)----------
+-> loop_head: 4064f9
+-> entries: 2
+-> trip_count: 148
+-> iterations: 296
+-> self_ins: 20289 (27.3592%)
+-> total_ins: 37326 (50.3331%)
+[15]--------loop at: trees.c:590 (4064fe)----------
+-> loop_head: 4064fe
+-> entries: 2
+-> trip_count: 129
+-> iterations: 259
+-> self_ins: 2017 (2.71987%)
+-> total_ins: 2044 (2.75628%)
+[16]--------loop at: trees.c:412 (406551)----------
+-> loop_head: 406551
+-> entries: 2
+-> trip_count: 285
+-> iterations: 570
+-> self_ins: 2280 (3.07452%)
+-> total_ins: 2280 (3.07452%)
+[17]--------loop at: trees.c:413 (406569)----------
+-> loop_head: 406569
+-> entries: 2
+-> trip_count: 29
+-> iterations: 58
+-> self_ins: 232 (0.312846%)
+-> total_ins: 232 (0.312846%)
+[18]--------loop at: trees.c:414 (406581)----------
+-> loop_head: 406581
+-> entries: 2
+-> trip_count: 18
+-> iterations: 36
+-> self_ins: 144 (0.19418%)
+-> total_ins: 144 (0.19418%)
+[19]--------loop at: trees.c:352(406666)----------
+-> loop_head: 406666
+-> entries: 1
+-> trip_count: 28
+-> iterations: 28
+-> self_ins: 544 (0.733569%)
+-> total_ins: 1702 (2.2951%)
+[20]--------loop at: trees.c:353 (406668)----------
+-> loop_head: 406668
+-> entries: 16
+-> trip_count: 14
+-> iterations: 224
+-> self_ins: 1344 (1.81235%)
+-> total_ins: 1344 (1.81235%)
+[21]--------loop at: trees.c:367(4066bf)----------
+-> loop_head: 4066bf
+-> entries: 1
+-> trip_count: 16
+-> iterations: 16
+-> self_ins: 304 (0.409936%)
+-> total_ins: 1354 (1.82583%)
+[22]--------loop at: trees.c:368 (4066c1)----------
+-> loop_head: 4066c1
+-> entries: 10
+-> trip_count: 23
+-> iterations: 238
+-> self_ins: 1428 (1.92562%)
+-> total_ins: 1428 (1.92562%)
+[23]--------loop at: trees.c:375(406711)----------
+-> loop_head: 406711
+-> entries: 1
+-> trip_count: 14
+-> iterations: 14
+-> self_ins: 317 (0.427466%)
+-> total_ins: 1192 (1.60738%)
+[24]--------loop at: trees.c:376 (40671d)----------
+-> loop_head: 40671d
+-> entries: 10
+-> trip_count: 23
+-> iterations: 238
+-> self_ins: 1190 (1.60468%)
+-> total_ins: 1190 (1.60468%)
+[25]--------loop at: trees.c:382 (40674c)----------
+-> loop_head: 40674c
+-> entries: 1
+-> trip_count: 15
+-> iterations: 15
+-> self_ins: 60 (0.0809083%)
+-> total_ins: 60 (0.0809083%)
+[26]--------loop at: trees.c:384 (40676b)----------
+-> loop_head: 40676b
+-> entries: 1
+-> trip_count: 143
+-> iterations: 143
+-> self_ins: 572 (0.771326%)
+-> total_ins: 572 (0.771326%)
+[27]--------loop at: trees.c:385 (406785)----------
+-> loop_head: 406785
+-> entries: 1
+-> trip_count: 111
+-> iterations: 111
+-> self_ins: 444 (0.598722%)
+-> total_ins: 444 (0.598722%)
+[28]--------loop at: trees.c:386 (4067a9)----------
+-> loop_head: 4067a9
+-> entries: 1
+-> trip_count: 23
+-> iterations: 23
+-> self_ins: 92 (0.124059%)
+-> total_ins: 92 (0.124059%)
+[29]--------loop at: trees.c:387 (4067c6)----------
+-> loop_head: 4067c6
+-> entries: 1
+-> trip_count: 7
+-> iterations: 7
+-> self_ins: 28 (0.0377572%)
+-> total_ins: 28 (0.0377572%)
+[30]--------loop at: trees.c:397 (40680b)----------
+-> loop_head: 40680b
+-> entries: 1
+-> trip_count: 30
+-> iterations: 30
+-> self_ins: 1802 (2.42995%)
+-> total_ins: 2730 (3.68133%)
+[31]--------loop at: trees.c:459 (406916)----------
+-> loop_head: 406916
+-> entries: 14
+-> trip_count: 2
+-> iterations: 28
+-> self_ins: 617 (0.832007%)
+-> total_ins: 617 (0.832007%)
+[32]--------loop at: trees.c:462(406969)----------
+-> loop_head: 406969
+-> entries: 2
+-> trip_count: 2
+-> iterations: 4
+-> self_ins: 46 (0.0620297%)
+-> total_ins: 46 (0.0620297%)
+[33]--------loop at: trees.c:462 (406980)----------
+-> loop_head: 406980
+-> entries: 3
+-> trip_count: 2
+-> iterations: 6
+-> self_ins: 57 (0.0768629%)
+-> total_ins: 57 (0.0768629%)
+[34]--------loop at: trees.c:499 (406a0d)----------
+-> loop_head: 406a0d
+-> entries: 3
+-> trip_count: 15
+-> iterations: 45
+-> self_ins: 180 (0.242725%)
+-> total_ins: 180 (0.242725%)
+[35]--------loop at: trees.c:510(406a8b)----------
+-> loop_head: 406a8b
+-> entries: 3
+-> trip_count: 11
+-> iterations: 34
+-> self_ins: 829 (1.11788%)
+-> total_ins: 829 (1.11788%)
+[36]--------loop at: trees.c:626(406c7c)----------
+-> loop_head: 406c7c
+-> entries: 12
+-> trip_count: 2
+-> iterations: 35
+-> self_ins: 234 (0.315542%)
+-> total_ins: 234 (0.315542%)
+[37]--------loop at: trees.c:627(406c84)----------
+-> loop_head: 406c84
+-> entries: 1
+-> trip_count: 8
+-> iterations: 8
+-> self_ins: 89 (0.120014%)
+-> total_ins: 96 (0.129453%)
+[38]--------loop at: trees.c:630(406ca2)----------
+-> loop_head: 406ca2
+-> entries: 2
+-> trip_count: 152
+-> iterations: 304
+-> self_ins: 1798 (2.42455%)
+-> total_ins: 1842 (2.48389%)
+[39]--------loop at: trees.c:651 (406d6f)----------
+-> loop_head: 406d6f
+-> entries: 2
+-> trip_count: 4
+-> iterations: 8
+-> self_ins: 527 (0.710645%)
+-> total_ins: 621 (0.837401%)
+[40]--------loop at: trees.c:677(406e33)----------
+-> loop_head: 406e33
+-> entries: 3
+-> trip_count: 5
+-> iterations: 17
+-> self_ins: 2646 (3.56806%)
+-> total_ins: 3071 (4.14116%)
+[41]--------loop at: trees.c:712(406ee2)----------
+-> loop_head: 406ee2
+-> entries: 8
+-> trip_count: 2
+-> iterations: 16
+-> self_ins: 191 (0.257558%)
+-> total_ins: 191 (0.257558%)
+[42]--------loop at: trees.c:713(406ef1)----------
+-> loop_head: 406ef1
+-> entries: 1
+-> trip_count: 248
+-> iterations: 248
+-> self_ins: 2678 (3.61121%)
+-> total_ins: 2930 (3.95102%)
+[43]--------loop at: trees.c:715(406efa)----------
+-> loop_head: 406efa
+-> entries: 1
+-> trip_count: 6
+-> iterations: 6
+-> self_ins: 118 (0.15912%)
+-> total_ins: 120 (0.161817%)
+[44]--------loop at: trees.c:711 (406f7d)----------
+-> loop_head: 406f7d
+-> entries: 7
+-> trip_count: 2
+-> iterations: 16
+-> self_ins: 273 (0.368133%)
+-> total_ins: 298 (0.401845%)
+[45]--------loop at: trees.c:1026(407459)----------
+-> loop_head: 407459
+-> entries: 1
+-> trip_count: 2
+-> iterations: 2
+-> self_ins: 231 (0.311497%)
+-> total_ins: 231 (0.311497%)
+[46]--------loop at: trees.c:1025 (40745f)----------
+-> loop_head: 40745f
+-> entries: 1
+-> trip_count: 3
+-> iterations: 3
+-> self_ins: 150 (0.202271%)
+-> total_ins: 1498 (2.02001%)
+[47]--------loop at: trees.c:1028(407493)----------
+-> loop_head: 407493
+-> entries: 3
+-> trip_count: 5
+-> iterations: 16
+-> self_ins: 1031 (1.39027%)
+-> total_ins: 1588 (2.14137%)
+[48]--------loop at: trees.c:1051(407571)----------
+-> loop_head: 407571
+-> entries: 2
+-> trip_count: 2
+-> iterations: 4
+-> self_ins: 326 (0.439602%)
+-> total_ins: 326 (0.439602%)
+[49]--------loop at: bits.c:154 (4077b2)----------
+-> loop_head: 4077b2
+-> entries: 332
+-> trip_count: 6
+-> iterations: 2266
+-> self_ins: 18128 (24.4451%)
+-> total_ins: 18128 (24.4451%)
+[50]--------loop at: util.c:73 (409b63)----------
+-> loop_head: 409b63
+-> entries: 1
+-> trip_count: 33
+-> iterations: 33
+-> self_ins: 264 (0.355997%)
+-> total_ins: 264 (0.355997%)
+[51]--------loop at: util.c:172 (409c2d)----------
+-> loop_head: 409c2d
+-> entries: 1
+-> trip_count: 14
+-> iterations: 14
+-> self_ins: 168 (0.226543%)
+-> total_ins: 168 (0.226543%)
+[52]--------loop at: ??:?(40bead)----------
+-> loop_head: 40bead
+-> entries: 1
+-> trip_count: 2
+-> iterations: 2
+-> self_ins: 22 (0.0296664%)
+-> total_ins: 22 (0.0296664%)
+************************************
+note: loops in total : 52
+
+ 
+*********************************Loop Call Graph**********************************************
+index     iteration     self_ins       total_ins       address      name	
+
+[1]							401d3a	    get_suffix	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							409c05	      strlwr	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  23		212 (0%)    	212 (0%)    	401e5c	      gzip.c:986 [sub_loop]
+	  15		15 (0%)    	15 (0%)    	401e36	      gzip.c:984 [sub_loop]
+	  15		15 (0%)    	15 (0%)    	401d99	      gzip.c:977 [sub_loop]
+----------------------------------------------------------------------------------------
+[2]							401ee9	    name_too_long	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  17		17 (0%)    	17 (0%)    	401f55	      gzip.c:1445 [sub_loop]
+	  18		18 (0%)    	18 (0%)    	401f32	      gzip.c:1440 [sub_loop]
+----------------------------------------------------------------------------------------
+[3]							401ff1	    do_stat	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[4]							4020a3	    get_istat	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							401ff1	      do_stat	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[5]							40227c	    make_ofname	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+							401d3a	      get_suffix	 [callee]
+----------------------------------------------------------------------------------------
+[6]							40251f	    reset_times	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[7]							403288	    copy_stat	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							40251f	      reset_times	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[8]							40392a	    do_exit	   [caller]
+							4017c0	      deregister_tm_clones	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[9]							4039d0	    check_ofname	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[10]							403e57	    create_outfile	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							401ee9	      name_too_long	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+							4039d0	      check_ofname	 [callee]
+----------------------------------------------------------------------------------------
+[11]							404490	    treat_file	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							403288	      copy_stat	 [callee]
+							4055e2	      zip	 [callee]
+							403e57	      create_outfile	 [callee]
+							409baa	      clear_bufs	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+							40227c	      make_ofname	 [callee]
+							4020a3	      get_istat	 [callee]
+----------------------------------------------------------------------------------------
+[12]							404f70	    main	   [caller]
+							40392a	      do_exit	 [callee]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+							40a3d1	      add_envopt	 [callee]
+							409c6c	      basename	 [callee]
+	  2		5088 (6%)    	72489 (97%)    	405549	      gzip.c:595 [sub_loop]
+	  3		3 (0%)    	3 (0%)    	40516e	      gzip.c:482 [sub_loop]
+	  4		4 (0%)    	4 (0%)    	404fc0	      gzip.c:438 [sub_loop]
+----------------------------------------------------------------------------------------
+[13]							4055e2	    zip	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							40a1a3	      flush_outbuf	 [callee]
+							405fe2	      deflate	 [callee]
+							409c6c	      basename	 [callee]
+							406313	      lm_init	 [callee]
+							4065ee	      ct_init	 [callee]
+							40774f	      bi_init	 [callee]
+							409b2f	      updcrc	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  16		168 (0%)    	168 (0%)    	405756	      zip.c:71 [sub_loop]
+----------------------------------------------------------------------------------------
+[14]							4059cf	    file_read	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							409b2f	      updcrc	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[15]							405a54	    longest_match	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[16]							405c62	    fill_window	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4059cf	      file_read	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[17]							405fe2	    deflate	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4075b2	      flush_block	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  23		3159 (4%)    	3303 (4%)    	40629a	      deflate.c:675 [sub_loop]
+----------------------------------------------------------------------------------------
+[18]							406313	    lm_init	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							405c62	      fill_window	 [callee]
+							4059cf	      file_read	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[19]							40647a	    gen_codes	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  296		20289 (27%)    	37326 (50%)    	4064f9	      trees.c:594 [sub_loop]
+	  56		336 (0%)    	336 (0%)    	4064b2	      trees.c:581  [sub_loop]
+	  259		2017 (2%)    	2044 (2%)    	4064fe	      trees.c:590  [sub_loop]
+----------------------------------------------------------------------------------------
+[20]							406534	    init_block	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  36		144 (0%)    	144 (0%)    	406581	      trees.c:414  [sub_loop]
+	  58		232 (0%)    	232 (0%)    	406569	      trees.c:413  [sub_loop]
+	  570		2280 (3%)    	2280 (3%)    	406551	      trees.c:412  [sub_loop]
+----------------------------------------------------------------------------------------
+[21]							4065ee	    ct_init	   [caller]
+							406534	      init_block	 [callee]
+							40647a	      gen_codes	 [callee]
+	  30		1802 (2%)    	2730 (3%)    	40680b	      trees.c:397  [sub_loop]
+	  7		28 (0%)    	28 (0%)    	4067c6	      trees.c:387  [sub_loop]
+	  23		92 (0%)    	92 (0%)    	4067a9	      trees.c:386  [sub_loop]
+	  111		444 (0%)    	444 (0%)    	406785	      trees.c:385  [sub_loop]
+	  143		572 (0%)    	572 (0%)    	40676b	      trees.c:384  [sub_loop]
+	  15		60 (0%)    	60 (0%)    	40674c	      trees.c:382  [sub_loop]
+	  14		317 (0%)    	1192 (1%)    	406711	      trees.c:375  [sub_loop]
+	  16		304 (0%)    	1354 (1%)    	4066bf	      trees.c:367  [sub_loop]
+	  28		544 (0%)    	1702 (2%)    	406666	      trees.c:352  [sub_loop]
+----------------------------------------------------------------------------------------
+[22]							4068cd	    pqdownheap	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  28		617 (0%)    	617 (0%)    	406916	      trees.c:459  [sub_loop]
+	  6		57 (0%)    	57 (0%)    	406980	      trees.c:462  [sub_loop]
+	  4		46 (0%)    	46 (0%)    	406969	      trees.c:462 [sub_loop]
+----------------------------------------------------------------------------------------
+[23]							4069ce	    gen_bitlen	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  34		829 (1%)    	829 (1%)    	406a8b	      trees.c:510 [sub_loop]
+	  45		180 (0%)    	180 (0%)    	406a0d	      trees.c:499  [sub_loop]
+----------------------------------------------------------------------------------------
+[24]							406c2a	    build_tree	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							40647a	      gen_codes	 [callee]
+							4069ce	      gen_bitlen	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  17		2646 (3%)    	3071 (4%)    	406e33	      trees.c:677 [sub_loop]
+	  8		527 (0%)    	621 (0%)    	406d6f	      trees.c:651  [sub_loop]
+	  304		1798 (2%)    	1842 (2%)    	406ca2	      trees.c:630 [sub_loop]
+	  8		89 (0%)    	96 (0%)    	406c84	      trees.c:627 [sub_loop]
+----------------------------------------------------------------------------------------
+[25]							406e89	    scan_tree	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  248		2678 (3%)    	2930 (3%)    	406ef1	      trees.c:713 [sub_loop]
+	  6		118 (0%)    	120 (0%)    	406efa	      trees.c:715 [sub_loop]
+----------------------------------------------------------------------------------------
+[26]							406fa0	    build_bl_tree	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							406c2a	      build_tree	 [callee]
+							406e89	      scan_tree	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[27]							40702f	    ct_tally	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[28]							40740d	    compress_block	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  3		150 (0%)    	1498 (2%)    	40745f	      trees.c:1025  [sub_loop]
+----------------------------------------------------------------------------------------
+[29]							4075b2	    flush_block	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4078e1	      bi_windup	 [callee]
+							406534	      init_block	 [callee]
+							40740d	      compress_block	 [callee]
+							4077de	      send_bits	 [callee]
+							406fa0	      build_bl_tree	 [callee]
+							406c2a	      build_tree	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[30]							40774f	    bi_init	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[31]							407795	    bi_reverse	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  2266		18128 (24%)    	18128 (24%)    	4077b2	      bits.c:154  [sub_loop]
+----------------------------------------------------------------------------------------
+[32]							4077de	    send_bits	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[33]							4078e1	    bi_windup	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[34]							409b2f	    updcrc	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  33		264 (0%)    	264 (0%)    	409b63	      util.c:73  [sub_loop]
+----------------------------------------------------------------------------------------
+[35]							409baa	    clear_bufs	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[36]							409c05	    strlwr	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  14		168 (0%)    	168 (0%)    	409c2d	      util.c:172  [sub_loop]
+----------------------------------------------------------------------------------------
+[37]							409c6c	    basename	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+							
+							
+*********************************Loop Call Graph**********************************************
+index     iteration     self_ins       total_ins   address       name             type
+.
+.
+.
+
+----------------------------------------------------------------------------------------
+[41]							40a1a3	    flush_outbuf	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							40a06d	      write_buf	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+[42]	  2     	  5088 (6%)	  72489 (97%)	405549	    gzip.c:595     [top_level_loop]
+							404490	      treat_file	 [callee]
+----------------------------------------------------------------------------------------
+[43]	  23     	  3159 (4%)	  3303 (4%)	40629a	    deflate.c:675     [top_level_loop]
+	  9		  144 (0%)	  144 (0%)	40612a	      deflate.c:719  [sub_loop]
+							40702f	      ct_tally	 [callee]
+							405a54	      longest_match	 [callee]
+----------------------------------------------------------------------------------------
+[44]	  31     	  852 (1%)	  988 (1%)	4064d3	    trees.c:591     [top_level_loop]
+							407795	      bi_reverse	 [callee]
+----------------------------------------------------------------------------------------
+[45]	  296     	  20289 (27%)	  37326 (50%)	4064f9	    trees.c:594     [top_level_loop]
+	  31		  852 (1%)	  988 (1%)	4064d3	      trees.c:591 [sub_loop]
+----------------------------------------------------------------------------------------
+[46]	  259     	  2017 (2%)	  2044 (2%)	4064fe	    trees.c:590      [top_level_loop]
+	  31		  852 (1%)	  988 (1%)	4064d3	      trees.c:591 [sub_loop]
+----------------------------------------------------------------------------------------
+[47]	  28     	  544 (0%)	  1702 (2%)	406666	    trees.c:352     [top_level_loop]
+	  224		  1344 (1%)	  1344 (1%)	406668	      trees.c:353  [sub_loop]
+----------------------------------------------------------------------------------------
+[48]	  16     	  304 (0%)	  1354 (1%)	4066bf	    trees.c:367     [top_level_loop]
+	  238		  1428 (1%)	  1428 (1%)	4066c1	      trees.c:368  [sub_loop]
+----------------------------------------------------------------------------------------
+[49]	  14     	  317 (0%)	  1192 (1%)	406711	    trees.c:375     [top_level_loop]
+	  238		  1190 (1%)	  1190 (1%)	40671d	      trees.c:376  [sub_loop]
+----------------------------------------------------------------------------------------
+[50]	  30     	  1802 (2%)	  2730 (3%)	40680b	    trees.c:397      [top_level_loop]
+							407795	      bi_reverse	 [callee]
+----------------------------------------------------------------------------------------
+[51]	  8     	  89 (0%)	  96 (0%)	406c84	    trees.c:627     [top_level_loop]
+	  35		  234 (0%)	  234 (0%)	406c7c	      trees.c:626 [sub_loop]
+----------------------------------------------------------------------------------------
+[52]	  304     	  1798 (2%)	  1842 (2%)	406ca2	    trees.c:630     [top_level_loop]
+	  35		  234 (0%)	  234 (0%)	406c7c	      trees.c:626 [sub_loop]
+----------------------------------------------------------------------------------------
+[53]	  8     	  527 (0%)	  621 (0%)	406d6f	    trees.c:651      [top_level_loop]
+							4068cd	      pqdownheap	 [callee]
+----------------------------------------------------------------------------------------
+[54]	  17     	  2646 (3%)	  3071 (4%)	406e33	    trees.c:677     [top_level_loop]
+							4068cd	      pqdownheap	 [callee]
+----------------------------------------------------------------------------------------
+[55]	  248     	  2678 (3%)	  2930 (3%)	406ef1	    trees.c:713     [top_level_loop]
+	  16		  273 (0%)	  298 (0%)	406f7d	      trees.c:711  [sub_loop]
+----------------------------------------------------------------------------------------
+[56]	  16     	  273 (0%)	  298 (0%)	406f7d	    trees.c:711      [top_level_loop]
+	  16		  191 (0%)	  191 (0%)	406ee2	      trees.c:712 [sub_loop]
+----------------------------------------------------------------------------------------
+[57]	  2     	  231 (0%)	  231 (0%)	407459	    trees.c:1026     [top_level_loop]
+							4077de	      send_bits	 [callee]
+----------------------------------------------------------------------------------------
+[58]	  3     	  150 (0%)	  1498 (2%)	40745f	    trees.c:1025      [top_level_loop]
+	  16		  1031 (1%)	  1588 (2%)	407493	      trees.c:1028 [sub_loop]
+----------------------------------------------------------------------------------------
+[59]	  16     	  1031 (1%)	  1588 (2%)	407493	    trees.c:1028     [top_level_loop]
+	  2		  231 (0%)	  231 (0%)	407459	      trees.c:1026 [sub_loop]
+	  4		  326 (0%)	  326 (0%)	407571	      trees.c:1051 [sub_loop]
+----------------------------------------------------------------------------------------
+[60]	  4     	  326 (0%)	  326 (0%)	407571	    trees.c:1051     [top_level_loop]
+							4077de	      send_bits	 [callee]
+----------------------------------------------------------------------------------------
+[61]	  2     	  22 (0%)	  22 (0%)	40bead	    ??:?     [top_level_loop]
+							401886	      main_constructor	 [callee]
+----------------------------------------------------------------------------------------
+
+Done!generate log.out. for farther visualization,please use callgraph_v2.py script.

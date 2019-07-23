@@ -1,0 +1,14 @@
+digraph test {
+
+  main [shape=rectangle]
+  f0 [shape=ellipse]
+  f4 [shape=ellipse]
+  f2_r [shape=rectangle]
+  f3 [shape=ellipse]
+  main -> f0 [label="3 calls" fontsize="10"]
+  main -> f4 [label="3 calls" fontsize="10"]
+  main -> f2_r [label="1 calls" fontsize="10"]
+  main -> f3 [label="1 calls" fontsize="10"]
+  f2_r -> f2_r [label="2 calls" fontsize="10"]
+
+}

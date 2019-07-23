@@ -1,0 +1,4 @@
+Pin: pin-3.5-97503-ac534ca30
+Copyright (c) 2003-2017, Intel Corporation. All rights reserved.
+A:  Source/pin/pin/image.cpp: INS_DirectBranchOrCallTargetAddress: 2299: assertion failed: INS_IsDirectBranchOrCall(ins)
+

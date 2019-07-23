@@ -1,0 +1,17 @@
+digraph gzip {
+
+  node0 [ label="main",shape="rectangle"]
+  node1 [ label="basename", shape="ellipse"]
+  node2 [ label="add_envopt", shape="ellipse"]
+  node3 [ label="??", shape="ellipse"]
+  node4 [ label="treat_stdin",shape="rectangle"]
+  node5 [ label="??", shape="ellipse"]
+  node6 [ label="do_exit", shape="ellipse"]
+  node0 -> node1 [label="1 " fontsize="10"]
+  node0 -> node2 [label="1 " fontsize="10"]
+  node0 -> node3 [label="1 " fontsize="10"]
+  node0 -> node4 [label="1 " fontsize="10"]
+  node4 -> node5 [label="2 " fontsize="10"]
+  node4 -> node6 [label="1 " fontsize="10"]
+
+}

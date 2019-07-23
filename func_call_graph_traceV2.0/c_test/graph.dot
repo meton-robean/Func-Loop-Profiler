@@ -1,0 +1,14 @@
+digraph test {
+
+  node0 [ label="main",shape="rectangle"]
+  node1 [ label="f0", shape="ellipse"]
+  node2 [ label="f4", shape="ellipse"]
+  node3 [ label="f2_r",shape="rectangle"]
+  node4 [ label="f3", shape="ellipse"]
+  node0 -> node1 [label="3 " fontsize="10"]
+  node0 -> node2 [label="3 " fontsize="10"]
+  node0 -> node3 [label="1 " fontsize="10"]
+  node0 -> node4 [label="1 " fontsize="10"]
+  node3 -> node3 [label="2 " fontsize="10"]
+
+}

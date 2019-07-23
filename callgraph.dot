@@ -1,0 +1,32 @@
+digraph G {
+node0 [ label="gzip.c:366 
+(53%,53%)",shape="ellipse",color = "red"];
+node1 [ label="help" ];
+node2 [ label="basename" ];
+node3 [ label="gzip.c:482
+(0%,0%)",shape="ellipse",color = "red"];
+node4 [ label="main_constructor" ];
+node5 [ label="??:?
+(1%,1%)",shape="ellipse",color = "red"];
+node6 [ label="frame_dummy" ];
+node7 [ label="add_envopt" ];
+node8 [ label="deregister_tm_clones" ];
+node9 [ label="usage" ];
+node10 [ label="do_exit" ];
+node11 [ label="main" ];
+node12 [ label="gzip.c:438
+(0%,0%)",shape="ellipse",color = "red"];
+node13 [ label="__libc_csu_init" ];
+node1 -> node9
+node11 -> node2
+node11 -> node10
+node11 -> node1
+node1 -> node0
+node13 -> node5
+node11 -> node3
+node11 -> node12
+node13 -> node6
+node10 -> node8
+node5 -> node4
+node11 -> node7
+}

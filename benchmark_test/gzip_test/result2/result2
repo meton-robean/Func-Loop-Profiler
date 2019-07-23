@@ -1,0 +1,541 @@
+total instructions: 53690
+*********Loop Flat Profile*********
+[1]--------loop at: gzip.c:970(4014fd)----------
+-> loop_head: 4014fd
+-> entries: 1
+-> trip_count: 15
+-> iterations: 15
+-> self_ins: 15 (0.0279382%)
+-> total_ins: 15 (0.0279382%)
+[2]--------loop at: gzip.c:977(40155e)----------
+-> loop_head: 40155e
+-> entries: 1
+-> trip_count: 15
+-> iterations: 15
+-> self_ins: 15 (0.0279382%)
+-> total_ins: 15 (0.0279382%)
+[3]--------loop at: gzip.c:979(401584)----------
+-> loop_head: 401584
+-> entries: 1
+-> trip_count: 23
+-> iterations: 23
+-> self_ins: 212 (0.394859%)
+-> total_ins: 212 (0.394859%)
+[4]--------loop at: gzip.c:1433(401627)----------
+-> loop_head: 401627
+-> entries: 1
+-> trip_count: 18
+-> iterations: 18
+-> self_ins: 18 (0.0335258%)
+-> total_ins: 18 (0.0335258%)
+[5]--------loop at: gzip.c:1438(401647)----------
+-> loop_head: 401647
+-> entries: 1
+-> trip_count: 17
+-> iterations: 17
+-> self_ins: 17 (0.0316633%)
+-> total_ins: 17 (0.0316633%)
+[6]--------loop at: gzip.c:435(4038e2)----------
+-> loop_head: 4038e2
+-> entries: 1
+-> trip_count: 4
+-> iterations: 4
+-> self_ins: 4 (0.00745018%)
+-> total_ins: 4 (0.00745018%)
+[7]--------loop at: gzip.c:479(403a71)----------
+-> loop_head: 403a71
+-> entries: 1
+-> trip_count: 3
+-> iterations: 3
+-> self_ins: 3 (0.00558763%)
+-> total_ins: 3 (0.00558763%)
+[8]--------loop at: zip.c:71(40409a)----------
+-> loop_head: 40409a
+-> entries: 1
+-> trip_count: 16
+-> iterations: 16
+-> self_ins: 168 (0.312907%)
+-> total_ins: 168 (0.312907%)
+[9]--------loop at: deflate.c:719 (404a9e)----------
+-> loop_head: 404a9e
+-> entries: 2
+-> trip_count: 4
+-> iterations: 9
+-> self_ins: 144 (0.268206%)
+-> total_ins: 144 (0.268206%)
+[10]--------loop at: deflate.c:675(404c12)----------
+-> loop_head: 404c12
+-> entries: 1
+-> trip_count: 23
+-> iterations: 23
+-> self_ins: 2117 (3.94301%)
+-> total_ins: 2261 (4.21121%)
+[11]--------loop at: trees.c:412 (404c81)----------
+-> loop_head: 404c81
+-> entries: 2
+-> trip_count: 285
+-> iterations: 570
+-> self_ins: 2280 (4.2466%)
+-> total_ins: 2280 (4.2466%)
+[12]--------loop at: trees.c:413 (404c99)----------
+-> loop_head: 404c99
+-> entries: 2
+-> trip_count: 29
+-> iterations: 58
+-> self_ins: 232 (0.43211%)
+-> total_ins: 232 (0.43211%)
+[13]--------loop at: trees.c:414 (404cb1)----------
+-> loop_head: 404cb1
+-> entries: 2
+-> trip_count: 18
+-> iterations: 36
+-> self_ins: 144 (0.268206%)
+-> total_ins: 144 (0.268206%)
+[14]--------loop at: trees.c:459 (404d43)----------
+-> loop_head: 404d43
+-> entries: 14
+-> trip_count: 2
+-> iterations: 28
+-> self_ins: 617 (1.14919%)
+-> total_ins: 617 (1.14919%)
+[15]--------loop at: trees.c:462(404d92)----------
+-> loop_head: 404d92
+-> entries: 2
+-> trip_count: 2
+-> iterations: 4
+-> self_ins: 46 (0.085677%)
+-> total_ins: 46 (0.085677%)
+[16]--------loop at: trees.c:462 (404da9)----------
+-> loop_head: 404da9
+-> entries: 3
+-> trip_count: 2
+-> iterations: 6
+-> self_ins: 57 (0.106165%)
+-> total_ins: 57 (0.106165%)
+[17]--------loop at: trees.c:712(404e37)----------
+-> loop_head: 404e37
+-> entries: 8
+-> trip_count: 2
+-> iterations: 16
+-> self_ins: 191 (0.355746%)
+-> total_ins: 191 (0.355746%)
+[18]--------loop at: trees.c:713(404e46)----------
+-> loop_head: 404e46
+-> entries: 1
+-> trip_count: 248
+-> iterations: 248
+-> self_ins: 2678 (4.98789%)
+-> total_ins: 2930 (5.45725%)
+[19]--------loop at: trees.c:715(404e4f)----------
+-> loop_head: 404e4f
+-> entries: 1
+-> trip_count: 6
+-> iterations: 6
+-> self_ins: 118 (0.21978%)
+-> total_ins: 120 (0.223505%)
+[20]--------loop at: trees.c:711 (404ed6)----------
+-> loop_head: 404ed6
+-> entries: 7
+-> trip_count: 2
+-> iterations: 16
+-> self_ins: 273 (0.508475%)
+-> total_ins: 298 (0.555038%)
+[21]--------loop at: trees.c:581 (404f0b)----------
+-> loop_head: 404f0b
+-> entries: 4
+-> trip_count: 14
+-> iterations: 56
+-> self_ins: 336 (0.625815%)
+-> total_ins: 336 (0.625815%)
+[22]--------loop at: trees.c:591(404f2c)----------
+-> loop_head: 404f2c
+-> entries: 10
+-> trip_count: 3
+-> iterations: 31
+-> self_ins: 422 (0.785994%)
+-> total_ins: 558 (1.0393%)
+[23]--------loop at: trees.c:594(404f52)----------
+-> loop_head: 404f52
+-> entries: 2
+-> trip_count: 148
+-> iterations: 296
+-> self_ins: 7647 (14.2429%)
+-> total_ins: 24684 (45.975%)
+[24]--------loop at: trees.c:590 (404f57)----------
+-> loop_head: 404f57
+-> entries: 2
+-> trip_count: 129
+-> iterations: 259
+-> self_ins: 2017 (3.75675%)
+-> total_ins: 2044 (3.80704%)
+[25]--------loop at: trees.c:626(404fcd)----------
+-> loop_head: 404fcd
+-> entries: 12
+-> trip_count: 2
+-> iterations: 35
+-> self_ins: 234 (0.435835%)
+-> total_ins: 234 (0.435835%)
+[26]--------loop at: trees.c:627(404fd5)----------
+-> loop_head: 404fd5
+-> entries: 1
+-> trip_count: 8
+-> iterations: 8
+-> self_ins: 89 (0.165766%)
+-> total_ins: 96 (0.178804%)
+[27]--------loop at: trees.c:630(404ff4)----------
+-> loop_head: 404ff4
+-> entries: 2
+-> trip_count: 152
+-> iterations: 304
+-> self_ins: 1798 (3.34885%)
+-> total_ins: 1842 (3.43081%)
+[28]--------loop at: trees.c:651 (4050db)----------
+-> loop_head: 4050db
+-> entries: 2
+-> trip_count: 4
+-> iterations: 8
+-> self_ins: 311 (0.579251%)
+-> total_ins: 405 (0.75433%)
+[29]--------loop at: trees.c:677(4051a9)----------
+-> loop_head: 4051a9
+-> entries: 3
+-> trip_count: 5
+-> iterations: 17
+-> self_ins: 1602 (2.9838%)
+-> total_ins: 2027 (3.77538%)
+[30]--------loop at: trees.c:499(4051f7)----------
+-> loop_head: 4051f7
+-> entries: 3
+-> trip_count: 15
+-> iterations: 45
+-> self_ins: 180 (0.335258%)
+-> total_ins: 180 (0.335258%)
+[31]--------loop at: trees.c:510(40526f)----------
+-> loop_head: 40526f
+-> entries: 3
+-> trip_count: 11
+-> iterations: 34
+-> self_ins: 829 (1.54405%)
+-> total_ins: 829 (1.54405%)
+[32]--------loop at: trees.c:1026(4055b8)----------
+-> loop_head: 4055b8
+-> entries: 1
+-> trip_count: 2
+-> iterations: 2
+-> self_ins: 113 (0.210467%)
+-> total_ins: 113 (0.210467%)
+[33]--------loop at: trees.c:1025 (4055be)----------
+-> loop_head: 4055be
+-> entries: 1
+-> trip_count: 3
+-> iterations: 3
+-> self_ins: 66 (0.122928%)
+-> total_ins: 764 (1.42298%)
+[34]--------loop at: trees.c:1028(4055f2)----------
+-> loop_head: 4055f2
+-> entries: 3
+-> trip_count: 5
+-> iterations: 16
+-> self_ins: 541 (1.00764%)
+-> total_ins: 820 (1.52729%)
+[35]--------loop at: trees.c:1051(4056d0)----------
+-> loop_head: 4056d0
+-> entries: 2
+-> trip_count: 2
+-> iterations: 4
+-> self_ins: 166 (0.309182%)
+-> total_ins: 166 (0.309182%)
+[36]--------loop at: trees.c:352(405760)----------
+-> loop_head: 405760
+-> entries: 1
+-> trip_count: 28
+-> iterations: 28
+-> self_ins: 544 (1.01322%)
+-> total_ins: 1702 (3.17005%)
+[37]--------loop at: trees.c:353 (405762)----------
+-> loop_head: 405762
+-> entries: 16
+-> trip_count: 14
+-> iterations: 224
+-> self_ins: 1344 (2.50326%)
+-> total_ins: 1344 (2.50326%)
+[38]--------loop at: trees.c:367(4057b9)----------
+-> loop_head: 4057b9
+-> entries: 1
+-> trip_count: 16
+-> iterations: 16
+-> self_ins: 304 (0.566213%)
+-> total_ins: 1354 (2.52188%)
+[39]--------loop at: trees.c:368 (4057bb)----------
+-> loop_head: 4057bb
+-> entries: 10
+-> trip_count: 23
+-> iterations: 238
+-> self_ins: 1428 (2.65971%)
+-> total_ins: 1428 (2.65971%)
+[40]--------loop at: trees.c:375(40580b)----------
+-> loop_head: 40580b
+-> entries: 1
+-> trip_count: 14
+-> iterations: 14
+-> self_ins: 317 (0.590427%)
+-> total_ins: 1192 (2.22015%)
+[41]--------loop at: trees.c:376 (405817)----------
+-> loop_head: 405817
+-> entries: 10
+-> trip_count: 23
+-> iterations: 238
+-> self_ins: 1190 (2.21643%)
+-> total_ins: 1190 (2.21643%)
+[42]--------loop at: trees.c:382 (405846)----------
+-> loop_head: 405846
+-> entries: 1
+-> trip_count: 15
+-> iterations: 15
+-> self_ins: 60 (0.111753%)
+-> total_ins: 60 (0.111753%)
+[43]--------loop at: trees.c:384 (405865)----------
+-> loop_head: 405865
+-> entries: 1
+-> trip_count: 143
+-> iterations: 143
+-> self_ins: 572 (1.06538%)
+-> total_ins: 572 (1.06538%)
+[44]--------loop at: trees.c:385 (40587f)----------
+-> loop_head: 40587f
+-> entries: 1
+-> trip_count: 111
+-> iterations: 111
+-> self_ins: 444 (0.82697%)
+-> total_ins: 444 (0.82697%)
+[45]--------loop at: trees.c:386 (4058a3)----------
+-> loop_head: 4058a3
+-> entries: 1
+-> trip_count: 23
+-> iterations: 23
+-> self_ins: 92 (0.171354%)
+-> total_ins: 92 (0.171354%)
+[46]--------loop at: trees.c:387 (4058c0)----------
+-> loop_head: 4058c0
+-> entries: 1
+-> trip_count: 7
+-> iterations: 7
+-> self_ins: 28 (0.0521512%)
+-> total_ins: 28 (0.0521512%)
+[47]--------loop at: trees.c:397 (405905)----------
+-> loop_head: 405905
+-> entries: 1
+-> trip_count: 30
+-> iterations: 30
+-> self_ins: 555 (1.03371%)
+-> total_ins: 1483 (2.76215%)
+[48]--------loop at: bits.c:154 (405e4a)----------
+-> loop_head: 405e4a
+-> entries: 332
+-> trip_count: 6
+-> iterations: 2266
+-> self_ins: 18128 (33.7642%)
+-> total_ins: 18128 (33.7642%)
+[49]--------loop at: util.c:73 (407d99)----------
+-> loop_head: 407d99
+-> entries: 1
+-> trip_count: 33
+-> iterations: 33
+-> self_ins: 264 (0.491712%)
+-> total_ins: 264 (0.491712%)
+[50]--------loop at: util.c:172 (407e1a)----------
+-> loop_head: 407e1a
+-> entries: 1
+-> trip_count: 14
+-> iterations: 14
+-> self_ins: 168 (0.312907%)
+-> total_ins: 168 (0.312907%)
+************************************
+note: loops in total : 50
+
+ 
+*********************************Loop Call Graph**********************************************
+index     iteration     self_ins       total_ins       address      name	
+
+[1]							4014ad	    get_suffix	   [caller]
+							407e02	      strlwr	 [callee]
+	  23		212 (0%)    	212 (0%)    	401584	      gzip.c:979 [sub_loop]
+	  15		15 (0%)    	15 (0%)    	40155e	      gzip.c:977 [sub_loop]
+	  15		15 (0%)    	15 (0%)    	4014fd	      gzip.c:970 [sub_loop]
+----------------------------------------------------------------------------------------
+[2]							4015fc	    name_too_long	   [caller]
+	  17		17 (0%)    	17 (0%)    	401647	      gzip.c:1438 [sub_loop]
+	  18		18 (0%)    	18 (0%)    	401627	      gzip.c:1433 [sub_loop]
+----------------------------------------------------------------------------------------
+[3]							402565	    do_exit	   [caller]
+							4013b0	      deregister_tm_clones	 [callee]
+----------------------------------------------------------------------------------------
+[4]							402874	    treat_file	   [caller]
+							40434e	      fill_window	 [callee]
+							40445d	      lm_init	 [callee]
+							405702	      ct_init	 [callee]
+							405d3a	      bi_init	 [callee]
+							407d81	      updcrc	 [callee]
+							4015fc	      name_too_long	 [callee]
+							407dcd	      clear_bufs	 [callee]
+							4014ad	      get_suffix	 [callee]
+							4016b1	      do_stat	 [callee]
+----------------------------------------------------------------------------------------
+[5]							403423	    treat_file	   [caller]
+							401703	      reset_times	 [callee]
+----------------------------------------------------------------------------------------
+[6]							4038b3	    main	   [caller]
+							402874	      treat_file	 [callee]
+							4082a1	      add_envopt	 [callee]
+							407e4a	      basename	 [callee]
+	  3		3 (0%)    	3 (0%)    	403a71	      gzip.c:479 [sub_loop]
+	  4		4 (0%)    	4 (0%)    	4038e2	      gzip.c:435 [sub_loop]
+----------------------------------------------------------------------------------------
+[7]							403ef5	    main	   [caller]
+							402565	      do_exit	 [callee]
+----------------------------------------------------------------------------------------
+[8]							40400f	    zip	   [caller]
+							40812d	      flush_outbuf	 [callee]
+							40475d	      deflate	 [callee]
+							407e4a	      basename	 [callee]
+	  16		168 (0%)    	168 (0%)    	40409a	      zip.c:71 [sub_loop]
+----------------------------------------------------------------------------------------
+[9]							40445d	    lm_init	   [caller]
+							407d81	      updcrc	 [callee]
+----------------------------------------------------------------------------------------
+[10]							40475d	    deflate	   [caller]
+							40591f	      flush_block	 [callee]
+							405bd4	      ct_tally	 [callee]
+	  23		2117 (3%)    	2261 (4%)    	404c12	      deflate.c:675 [sub_loop]
+----------------------------------------------------------------------------------------
+[11]							404c77	    init_block	   [caller]
+	  36		144 (0%)    	144 (0%)    	404cb1	      trees.c:414  [sub_loop]
+	  58		232 (0%)    	232 (0%)    	404c99	      trees.c:413  [sub_loop]
+	  570		2280 (4%)    	2280 (4%)    	404c81	      trees.c:412  [sub_loop]
+----------------------------------------------------------------------------------------
+[12]							404d0b	    pqdownheap	   [caller]
+	  28		617 (1%)    	617 (1%)    	404d43	      trees.c:459  [sub_loop]
+	  6		57 (0%)    	57 (0%)    	404da9	      trees.c:462  [sub_loop]
+	  4		46 (0%)    	46 (0%)    	404d92	      trees.c:462 [sub_loop]
+----------------------------------------------------------------------------------------
+[13]							404df5	    scan_tree	   [caller]
+	  248		2678 (4%)    	2930 (5%)    	404e46	      trees.c:713 [sub_loop]
+	  6		118 (0%)    	120 (0%)    	404e4f	      trees.c:715 [sub_loop]
+----------------------------------------------------------------------------------------
+[14]							404ee7	    gen_codes	   [caller]
+							405e45	      bi_reverse	 [callee]
+	  296		7647 (14%)    	24684 (45%)    	404f52	      trees.c:594 [sub_loop]
+	  56		336 (0%)    	336 (0%)    	404f0b	      trees.c:581  [sub_loop]
+	  259		2017 (3%)    	2044 (3%)    	404f57	      trees.c:590  [sub_loop]
+----------------------------------------------------------------------------------------
+[15]							404f7e	    build_tree	   [caller]
+							404ee7	      gen_codes	 [callee]
+							404d0b	      pqdownheap	 [callee]
+	  34		829 (1%)    	829 (1%)    	40526f	      trees.c:510 [sub_loop]
+	  45		180 (0%)    	180 (0%)    	4051f7	      trees.c:499 [sub_loop]
+	  17		1602 (2%)    	2027 (3%)    	4051a9	      trees.c:677 [sub_loop]
+	  8		311 (0%)    	405 (0%)    	4050db	      trees.c:651  [sub_loop]
+	  304		1798 (3%)    	1842 (3%)    	404ff4	      trees.c:630 [sub_loop]
+	  8		89 (0%)    	96 (0%)    	404fd5	      trees.c:627 [sub_loop]
+----------------------------------------------------------------------------------------
+[16]							40557b	    compress_block	   [caller]
+							405d5f	      send_bits	 [callee]
+	  3		66 (0%)    	764 (1%)    	4055be	      trees.c:1025  [sub_loop]
+----------------------------------------------------------------------------------------
+[17]							405702	    ct_init	   [caller]
+							404c77	      init_block	 [callee]
+							405e45	      bi_reverse	 [callee]
+							404ee7	      gen_codes	 [callee]
+	  30		555 (1%)    	1483 (2%)    	405905	      trees.c:397  [sub_loop]
+	  7		28 (0%)    	28 (0%)    	4058c0	      trees.c:387  [sub_loop]
+	  23		92 (0%)    	92 (0%)    	4058a3	      trees.c:386  [sub_loop]
+	  111		444 (0%)    	444 (0%)    	40587f	      trees.c:385  [sub_loop]
+	  143		572 (1%)    	572 (1%)    	405865	      trees.c:384  [sub_loop]
+	  15		60 (0%)    	60 (0%)    	405846	      trees.c:382  [sub_loop]
+	  14		317 (0%)    	1192 (2%)    	40580b	      trees.c:375 [sub_loop]
+	  16		304 (0%)    	1354 (2%)    	4057b9	      trees.c:367 [sub_loop]
+	  28		544 (1%)    	1702 (3%)    	405760	      trees.c:352 [sub_loop]
+----------------------------------------------------------------------------------------
+[18]							40591f	    flush_block	   [caller]
+							405e5f	      bi_windup	 [callee]
+							404c77	      init_block	 [callee]
+							40557b	      compress_block	 [callee]
+							405d5f	      send_bits	 [callee]
+							404f7e	      build_tree	 [callee]
+							404df5	      scan_tree	 [callee]
+----------------------------------------------------------------------------------------
+[19]							405e45	    bi_reverse	   [caller]
+	  2266		18128 (33%)    	18128 (33%)    	405e4a	      bits.c:154  [sub_loop]
+----------------------------------------------------------------------------------------
+[20]							407d81	    updcrc	   [caller]
+	  33		264 (0%)    	264 (0%)    	407d99	      util.c:73  [sub_loop]
+----------------------------------------------------------------------------------------
+[21]							407e02	    strlwr	   [caller]
+	  14		168 (0%)    	168 (0%)    	407e1a	      util.c:172  [sub_loop]
+----------------------------------------------------------------------------------------
+[22]							40812d	    flush_outbuf	   [caller]
+							408062	      write_buf	 [callee]
+----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+[23]	  23     	  2117 (3%)	  2261 (4%)	404c12	    deflate.c:675     [top_level_loop]
+	  9		  144 (0%)	  144 (0%)	404a9e	      deflate.c:719  [sub_loop]
+							405bd4	      ct_tally	 [callee]
+							404579	      longest_match	 [callee]
+----------------------------------------------------------------------------------------
+[24]	  248     	  2678 (4%)	  2930 (5%)	404e46	    trees.c:713     [top_level_loop]
+	  16		  273 (0%)	  298 (0%)	404ed6	      trees.c:711  [sub_loop]
+----------------------------------------------------------------------------------------
+[25]	  16     	  273 (0%)	  298 (0%)	404ed6	    trees.c:711      [top_level_loop]
+	  16		  191 (0%)	  191 (0%)	404e37	      trees.c:712 [sub_loop]
+----------------------------------------------------------------------------------------
+[26]	  31     	  422 (0%)	  558 (1%)	404f2c	    trees.c:591     [top_level_loop]
+							405e45	      bi_reverse	 [callee]
+----------------------------------------------------------------------------------------
+[27]	  296     	  7647 (14%)	  24684 (45%)	404f52	    trees.c:594     [top_level_loop]
+	  31		  422 (0%)	  558 (1%)	404f2c	      trees.c:591 [sub_loop]
+							405e45	      bi_reverse	 [callee]
+----------------------------------------------------------------------------------------
+[28]	  259     	  2017 (3%)	  2044 (3%)	404f57	    trees.c:590      [top_level_loop]
+	  31		  422 (0%)	  558 (1%)	404f2c	      trees.c:591 [sub_loop]
+----------------------------------------------------------------------------------------
+[29]	  8     	  89 (0%)	  96 (0%)	404fd5	    trees.c:627     [top_level_loop]
+	  35		  234 (0%)	  234 (0%)	404fcd	      trees.c:626 [sub_loop]
+----------------------------------------------------------------------------------------
+[30]	  304     	  1798 (3%)	  1842 (3%)	404ff4	    trees.c:630     [top_level_loop]
+	  35		  234 (0%)	  234 (0%)	404fcd	      trees.c:626 [sub_loop]
+----------------------------------------------------------------------------------------
+[31]	  8     	  311 (0%)	  405 (0%)	4050db	    trees.c:651      [top_level_loop]
+							404d0b	      pqdownheap	 [callee]
+----------------------------------------------------------------------------------------
+[32]	  17     	  1602 (2%)	  2027 (3%)	4051a9	    trees.c:677     [top_level_loop]
+							404d0b	      pqdownheap	 [callee]
+----------------------------------------------------------------------------------------
+[33]	  2     	  113 (0%)	  113 (0%)	4055b8	    trees.c:1026     [top_level_loop]
+							405d5f	      send_bits	 [callee]
+----------------------------------------------------------------------------------------
+[34]	  3     	  66 (0%)	  764 (1%)	4055be	    trees.c:1025      [top_level_loop]
+	  16		  541 (1%)	  820 (1%)	4055f2	      trees.c:1028 [sub_loop]
+							405d5f	      send_bits	 [callee]
+----------------------------------------------------------------------------------------
+[35]	  16     	  541 (1%)	  820 (1%)	4055f2	    trees.c:1028     [top_level_loop]
+	  2		  113 (0%)	  113 (0%)	4055b8	      trees.c:1026 [sub_loop]
+	  4		  166 (0%)	  166 (0%)	4056d0	      trees.c:1051 [sub_loop]
+							405d5f	      send_bits	 [callee]
+----------------------------------------------------------------------------------------
+[36]	  4     	  166 (0%)	  166 (0%)	4056d0	    trees.c:1051     [top_level_loop]
+							405d5f	      send_bits	 [callee]
+----------------------------------------------------------------------------------------
+[37]	  28     	  544 (1%)	  1702 (3%)	405760	    trees.c:352     [top_level_loop]
+	  224		  1344 (2%)	  1344 (2%)	405762	      trees.c:353  [sub_loop]
+----------------------------------------------------------------------------------------
+[38]	  16     	  304 (0%)	  1354 (2%)	4057b9	    trees.c:367     [top_level_loop]
+	  238		  1428 (2%)	  1428 (2%)	4057bb	      trees.c:368  [sub_loop]
+----------------------------------------------------------------------------------------
+[39]	  14     	  317 (0%)	  1192 (2%)	40580b	    trees.c:375     [top_level_loop]
+	  238		  1190 (2%)	  1190 (2%)	405817	      trees.c:376  [sub_loop]
+----------------------------------------------------------------------------------------
+[40]	  30     	  555 (1%)	  1483 (2%)	405905	    trees.c:397      [top_level_loop]
+							405e45	      bi_reverse	 [callee]
+----------------------------------------------------------------------------------------
+

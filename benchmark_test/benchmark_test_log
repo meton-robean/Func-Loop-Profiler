@@ -1,0 +1,9 @@
+         only pin       loop profile      pin bbl count      run native    (ms)
+gzip       102            8260	           164              1.23
+gprof      434            68931                612              1.38
+example    33             30099                38               0.204      (note: incuding 100x100x3-3layers_nested_loops)
+
+倍数：
+
+gzip      83                     1.6
+gprof     
