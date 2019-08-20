@@ -16,5 +16,11 @@
  loop call graph visualization: eg.   ./callgraph_v2.py addr2line test log.out callgraph.png  
 
 
-#### Result:  
-![loop call graph](https://github.com/meton-robean/Func-Loop-Profiler/blob/master/callgraph.png)
+#### Test:  
+using gzip binary file to zip the zip_example.txt:   
+first, rename gzip binary file as 'test'   
+'''
+pin -t ./obj/LoopProfv3.4.so -o log.out -- ./test zip_example.zip  
+'''  
+#### Result:   
+![loop call graph](https://github.com/meton-robean/Func-Loop-Profiler/blob/master/callgraph1.png)  
