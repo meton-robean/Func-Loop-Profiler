@@ -1,6 +1,6 @@
 # Func-Loop-Profiler
 基于PIn动态插桩框架的函数-循环嵌套关系分析工具： function-loop call graph profiler using Pin  
-Unofficial implementation of paper: 
+Unofficial implementation of paper: [Identifying Potential Parallelism via Loop-centric Profiling](https://dl.acm.org/citation.cfm?id=1242554)
 #### Version 3.4     
  a. ignore system call  
  b. in func_call_graph_traceV2.0/ dir, we use gcc compiler to get function call graph.   
