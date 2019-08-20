@@ -19,15 +19,14 @@
 #### Test:  
 using gzip binary file to zip the zip_example.txt:   
 first, rename gzip binary file as 'test'   
-then run:  
-'''bash  
+then run: 
+```bash
  pin -t ./obj/LoopProfv3.4.so -o log.out -- ./test zip_example.zip 
-'''
+```
 
- 
 #### Result:   
-##### Loop Flat Profile:  
-'''bash
+##### Loop Flat Profile:   
+```bash
 *********Loop Flat Profile*********
 [1]--------loop at: gzip.c:977(401d99)----------
 -> loop_head: 401d99
@@ -53,7 +52,9 @@ then run:
 [4]--------loop at: gzip.c:1440(401f32)----------
 ....
 ....
-'''
+
+```
+
 ##### Loop Call Graph:  
 
 ##### Graph Visualization:  
