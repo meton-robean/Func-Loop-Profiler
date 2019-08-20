@@ -1,6 +1,6 @@
 # Func-Loop-Profiler
-基于PIn动态插桩框架的函数-循环嵌套关系分析工具： function-loop call graph profiler using Pin
-
+基于PIn动态插桩框架的函数-循环嵌套关系分析工具： function-loop call graph profiler using Pin  
+Unofficial implementation of paper: 
 #### Version 3.4     
  a. ignore system call  
  b. in func_call_graph_traceV2.0/ dir, we use gcc compiler to get function call graph.   
@@ -12,7 +12,7 @@
 #### Usage:  
  test file compile:   eg.   gcc -g test_file.c -o test   
  compile:             eg.   make PIN_ROOT=~/application/pin-3.5/ OBJDIR=./obj/ ./obj/LoopProfv3.4.so  
- run pintool:         eg.   pin -t ./obj/LoopProfv3.4.so -o log.out -- ./test  (测试程序的名字要是test)
+ run pintool:         eg.   pin -t ./obj/LoopProfv3.4.so -o log.out -- ./test  (测试程序的名字要是test)  
  loop call graph visualization: eg.   ./callgraph_v2.py addr2line test log.out callgraph.png  
 
 
@@ -56,6 +56,36 @@ then run:
 ```
 
 ##### Loop Call Graph:  
-
+```bash
+----------------------------------------------------------------------------------------
+[17]							405fe2	    deflate	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4075b2	      flush_block	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  23		3159 (4%)    	3303 (4%)    	40629a	      deflate.c:675 [sub_loop]
+----------------------------------------------------------------------------------------
+[18]							406313	    lm_init	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							405c62	      fill_window	 [callee]
+							4059cf	      file_read	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+----------------------------------------------------------------------------------------
+[19]							40647a	    gen_codes	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  296		20289 (27%)    	37326 (50%)    	4064f9	      trees.c:594 [sub_loop]
+	  56		336 (0%)    	336 (0%)    	4064b2	      trees.c:581  [sub_loop]
+	  259		2017 (2%)    	2044 (2%)    	4064fe	      trees.c:590  [sub_loop]
+----------------------------------------------------------------------------------------
+[20]							406534	    init_block	   [caller]
+							401921	      __cyg_profile_func_exit	 [callee]
+							4018f1	      __cyg_profile_func_enter	 [callee]
+	  36		144 (0%)    	144 (0%)    	406581	      trees.c:414  [sub_loop]
+	  58		232 (0%)    	232 (0%)    	406569	      trees.c:413  [sub_loop]
+	  570		2280 (3%)    	2280 (3%)    	406551	      trees.c:412  [sub_loop]
+----------------------------------------------------------------------------------------
+```
+   
+   
 ##### Graph Visualization:  
 ![loop call graph](https://github.com/meton-robean/Func-Loop-Profiler/blob/master/callgraph1.png)  
