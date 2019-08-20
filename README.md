@@ -27,7 +27,7 @@ then run:
  
 #### Result:   
 ##### Loop Flat Profile:  
-'''bash  
+'''bash
 *********Loop Flat Profile*********
 [1]--------loop at: gzip.c:977(401d99)----------
 -> loop_head: 401d99
