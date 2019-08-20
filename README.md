@@ -19,8 +19,42 @@
 #### Test:  
 using gzip binary file to zip the zip_example.txt:   
 first, rename gzip binary file as 'test'   
+then run:  
+'''bash  
+ pin -t ./obj/LoopProfv3.4.so -o log.out -- ./test zip_example.zip 
 '''
-pin -t ./obj/LoopProfv3.4.so -o log.out -- ./test zip_example.zip  
-'''  
+
+ 
 #### Result:   
+##### Loop Flat Profile:  
+'''bash  
+*********Loop Flat Profile*********
+[1]--------loop at: gzip.c:977(401d99)----------
+-> loop_head: 401d99
+-> entries: 1
+-> trip_count: 15
+-> iterations: 15
+-> self_ins: 15 (0.0202271%)
+-> total_ins: 15 (0.0202271%)
+[2]--------loop at: gzip.c:984(401e36)----------
+-> loop_head: 401e36
+-> entries: 1
+-> trip_count: 15
+-> iterations: 15
+-> self_ins: 15 (0.0202271%)
+-> total_ins: 15 (0.0202271%)
+[3]--------loop at: gzip.c:986(401e5c)----------
+-> loop_head: 401e5c
+-> entries: 1
+-> trip_count: 23
+-> iterations: 23
+-> self_ins: 212 (0.285876%)
+-> total_ins: 212 (0.285876%)
+[4]--------loop at: gzip.c:1440(401f32)----------
+....
+....
+'''
+##### Loop Call Graph:  
+
+##### Graph Visualization:  
 ![loop call graph](https://github.com/meton-robean/Func-Loop-Profiler/blob/master/callgraph1.png)  
