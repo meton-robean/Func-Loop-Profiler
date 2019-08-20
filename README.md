@@ -21,7 +21,7 @@ using gzip binary file to zip the zip_example.txt:
 first, rename gzip binary file as 'test'   
 then run: 
 ```bash
- pin -t ./obj/LoopProfv3.4.so -o log.out -- ./test zip_example.zip 
+ pin -t ./obj/LoopProfv3.4.so -o log.out -- ./test zip_example.txt 
 ```
 
 #### Result:   
