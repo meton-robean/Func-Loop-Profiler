@@ -11,7 +11,7 @@ Unofficial implementation of paper: [Identifying Potential Parallelism via Loop-
 
 #### Usage:  
  test file compile:   eg.   gcc -g test_file.c -o test   
- compile:             eg.   make PIN_ROOT=~/application/pin-3.5/ OBJDIR=./obj/ ./obj/LoopProfv3.4.so  
+ compile:             eg.   make PIN_ROOT=~/application/pin-3.5/ OBJDIR=./obj/ ./obj/LoopProfv3.4.so (need Pin framework..)  
  run pintool:         eg.   pin -t ./obj/LoopProfv3.4.so -o log.out -- ./test  (测试程序的名字要是test)  
  loop call graph visualization: eg.   ./callgraph_v2.py addr2line test log.out callgraph.png  
 
