@@ -7,8 +7,6 @@ Unofficial implementation of paper: [Identifying Potential Parallelism via Loop-
  c. solve the bug that function call graph have some problem when encouter function ptr   
  d. add more detailed annotations  
 
-
-
 #### Usage:  
  test file compile:   eg.   gcc -g test_file.c -o test   
  compile:             eg.   make PIN_ROOT=~/application/pin-3.5/ OBJDIR=./obj/ ./obj/LoopProfv3.4.so (need Pin framework..)  
